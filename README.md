@@ -32,6 +32,10 @@
 >  ```bash
 >  $ sudo usermod -aG docker zeusg # or whatever user defined in the inventory.ini file 
 >  ```
+>   - -  rerun the script
+>  ```bash
+>  $ ./init.sh
+>  ```
 > [*End Of Edit*]
 
 [![CI](https://github.com/geerlingguy/internet-pi/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/internet-pi/actions?query=workflow%3ACI)
