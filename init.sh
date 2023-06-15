@@ -14,5 +14,7 @@ git clone git@github.com:ZeusG23/internet-pi.git
 
 #Cd to dir and run install playbook
 cd internet-pi
+#Install requirements
+ansible-galaxy collection install -r requirements.yml
 #Run playbook with sudo privelages
 ansible-playbook main.yml -K
