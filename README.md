@@ -23,11 +23,15 @@
 >  #Run playbook with sudo privelages
 >  ansible-playbook main.yml -K
 >  ```
->Run the script using the following commands:
->```bash
->$ chmod +x init.sh 
->$ ./init.sh
->```
+>  Run the script using the following commands:
+>  ```bash
+>  $ chmod +x init.sh 
+>  $ ./init.sh
+>  ```
+> * Possible issues may occure running this script however; most commun one is missing user in the docker group, to fix:
+>  ```bash
+>  $ sudo usermod -aG docker zeusg # or whatever user defined in the inventory.ini file 
+>  ```
 > [*End Of Edit*]
 
 [![CI](https://github.com/geerlingguy/internet-pi/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/internet-pi/actions?query=workflow%3ACI)
