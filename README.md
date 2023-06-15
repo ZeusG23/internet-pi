@@ -52,6 +52,7 @@ It should also work with Ubuntu for Pi, or Arch Linux, but has not been tested o
 
 > **If running locally on the Pi**: You may encounter an error like "Error while fetching server API version". If you do, please either reboot or log out and log back in, then run the playbook again.
 
+> ***ZeusG*** *Edit*: Commented resolvconf task as it is unstable on latest debian release
 ## Usage
 
 ### Pi-hole
