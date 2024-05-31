@@ -30,7 +30,7 @@
 >  ```
 > * Possible issues may occure running this script however; most commun one is missing user in the docker group, to fix:
 >  ```bash
->  $ sudo usermod -aG docker zeusg # or whatever user defined in the inventory.ini file 
+>  $ sudo usermod -aG docker <user> # <user> defined in the inventory.ini file 
 >  ```
 >   - -  rerun the script
 >  ```bash
